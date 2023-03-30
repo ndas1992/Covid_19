@@ -1,0 +1,9 @@
+plotly
+pandas
+numpy
+dash
+dash_bootstrap_components
+fuzzywuzzy
+python-Levenshtein
+
+-e.
