@@ -6,7 +6,7 @@ import dash_bootstrap_components as dbc
 
 dash.register_page(__name__, name='Vaccine Analysis')
 
-df = pd.read_csv(r'INPUT\data\covid_vaccine_statewise.csv')
+df = pd.read_csv(r'INPUT/data/covid_vaccine_statewise.csv')
 #print(df.head())
 df_india = df[df['State'] == 'India']
 df_other = df[df['State'] != 'India']

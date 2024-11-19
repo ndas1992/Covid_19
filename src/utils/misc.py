@@ -2,7 +2,7 @@ import pandas as pd
 from fuzzywuzzy import process
 
 #data
-df_stats = pd.read_csv(r'INPUT\data\covid_19_india.csv')
+df_stats = pd.read_csv(r'INPUT/data/covid_19_india.csv')
 
 def check(x):
     states = 'Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal, Andaman and Nicobar Islands, Delhi, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Lakshadweep, Ladakh, Jammu and Kashmir, Puducherry'

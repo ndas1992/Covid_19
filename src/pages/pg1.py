@@ -9,7 +9,7 @@ import dash
 dash.register_page(__name__, path='/', name='Home')
 
 #data
-df_stats = pd.read_csv(r'INPUT\data\covid_19_india.csv')
+df_stats = pd.read_csv(r'INPUT/data/covid_19_india.csv')
 
 df_stats['State/UnionTerritory'] = df_stats['State/UnionTerritory'].apply(check)
 #print(df_stats.head())
